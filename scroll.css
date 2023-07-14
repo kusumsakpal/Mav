@@ -1,0 +1,18 @@
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 60px; /* Adjust this value to account for any fixed headers or elements on the page */
+  }
+  
+  @keyframes easingFunction {
+    0% { transform: cubic-bezier(0.645, 0.045, 0.355, 1); }
+    20% { transform: cubic-bezier(0.645, 0.045, 0.355, 1); }
+    40% { transform: cubic-bezier(0.645, 0.045, 0.355, 1); }
+    80% { transform: cubic-bezier(0.645, 0.045, 0.355, 1); }
+    100% { transform: cubic-bezier(0.645, 0.045, 0.355, 1); }
+  }
+  
+  #html-form, #readmorebtn, #htmlForm2{
+    animation: easingFunction 1s;
+    animation-fill-mode: forwards;
+  }
